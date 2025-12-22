@@ -1,11 +1,11 @@
 import Button from "./components/button/Button.tsx";
-import './style/remove.scss'
+import "./style/index.scss";
 
 function App() {
   return (
-    <div>
+    <div className={["App", "black"].join(" ")}>
       <Button>
-        hello
+        hi
       </Button>
     </div>
   )

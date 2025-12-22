@@ -1,0 +1,9 @@
+@use "themes/black";
+@use "themes/white";
+
+body {
+  background: linear-gradient(var(--primary-percent-gradient) var(--primary-bg-color), var(--temp-perecent-gradient) var(--temp-bg-color));
+  color: var(--primary-txt-color);
+}
+
+
