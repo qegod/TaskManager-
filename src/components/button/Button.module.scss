@@ -1,8 +1,11 @@
+@use '../../style/themes/black';
+@use '../../style/themes/white';
+
 .button{
   width: 208px;
   height: 62px;
+  color: var(--txt-color);
   border-radius: 13px;
-  background: linear-gradient(90deg, #0D0A20 0%, #2F2C2C 100%);
-  box-shadow:  11px 12px 5px 2px #000000;
+  box-shadow:  11px 12px 5px 2px rgba(0, 0, 0, 0.2);
   border: black;
 }

@@ -4,5 +4,5 @@ import './style/variables/global.scss'
 import './style/remove.scss'
 
 createRoot(document.getElementById('root')!).render(
-    <App />
+    <App/>
 )
