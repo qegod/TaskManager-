@@ -6,7 +6,7 @@ interface Props {
     mouseEnt?: () => void,
     mouseLeav?: () => void,
     callback?: () => void,
-    num: number
+    num?: number
 }
 
 
